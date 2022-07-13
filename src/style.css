@@ -1,0 +1,57 @@
+/* #app {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 60px;
+} */
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#app{
+  display: grid;
+  grid-auto-flow: column;
+  padding: 20px;
+  background-color: gray;
+  
+}
+.main-div{
+  display: grid;
+}
+.film{
+  display: grid;
+ 
+}
+.poster{
+ 
+  height: 250px;
+  width: 200px;
+}
+
+.film-details{
+  display:grid;
+  place-content: center;
+  
+
+}
+
+.big-poster{
+  height: 400px;
+  width: 300px;
+}
+
+.back-button{
+  height: 50px;
+  width: 50px;
+  
+}
+.back-button:hover{
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+}

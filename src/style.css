@@ -35,8 +35,14 @@
 
 .film-details{
   display:grid;
-  place-content: center;
   
+  place-items: center;
+  
+
+}
+.form-details{
+  display: grid;
+  place-content: center;
 
 }
 
